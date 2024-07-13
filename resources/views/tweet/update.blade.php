@@ -10,7 +10,7 @@
 <body>
 <h1>つぶやきを編集する</h1>
 <div>
-    <a href="{{ route('tweet.index') }}">< 戻る</a>
+<a href="{{ route('tweet.index') }}">< 戻る</a>
     <p>投稿フォーム</p>
     @if (session('feedback.success'))
     <p style="color: green">{{ session('feedback.success') }}</p>
@@ -29,3 +29,4 @@
 </div>
 </body>
 </html>
+
